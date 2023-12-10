@@ -3,9 +3,9 @@ import { IconType } from "react-icons";
 import { twMerge } from "tailwind-merge";
 interface SidebarItemProps {
   icon: IconType;
-  label: String;
+  label: string;
   active?: boolean;
-  href: String;
+  href: string;
 }
 const SidebarItem: React.FC<SidebarItemProps> = ({
   icon: Icon,
